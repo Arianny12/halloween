@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Metal+Mania&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Merriweather:wght@700&family=Metal+Mania&family=Oswald:wght@400;600&display=swap');
 
 /*font-family: 'Butcherman', cursive;
 font-family: 'Creepster', cursive;
@@ -11,12 +11,12 @@ font-family: 'Metal Mania', cursive;
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Oswald', sans-serif;
   /*background-image: url(background.webp);*/
   font-weight: bold;
   padding: 0;
   object-fit: contain;
   margin: 0;
-  font-family: 'Metal Mania', cursive;
 }
 
 .mainContainer {
@@ -47,6 +47,7 @@ body {
   font-size: 25px;
   justify-content: space-around;
   background-color: #7349AC;
+  font-family: 'Metal Mania', cursive;
 }
 
 .main_checkout {
@@ -126,6 +127,9 @@ h2 {
 .meme_pics {
   flex: 1;
   text-align: center;
+  /* this didn't work -- 
+  object-fit: cover;
+  object-position: center, center; */
 }
 
 .content {
@@ -144,7 +148,13 @@ h2 {
 }
 
 .description {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.item_name{
+  font-size:25px;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .items{
